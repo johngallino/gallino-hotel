@@ -104,7 +104,7 @@ $howmany = sizeof($availableRooms);
                                 <p class="price"><em> Starting at $<?php echo $room['rate']?> a night</em></p>
                             </div>
                         </div>
-                             <img width="100% cover" src="/<?php echo $room['photo']?>">
+                             <img width="100% cover" src="<?php echo $room['photo']?>">
                     </div>
             <?php endforeach; ?>
                     
