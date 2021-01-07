@@ -1,8 +1,8 @@
 <?php include('header.php') ?>
 
         <div class="lightbox-d">
-            <div style="width:80%; margin-left:auto; margin-right:auto;">
-            <h1>Seasonal, Sustainable, Masterful Food</h1>
+            <div class="menu">
+            <h1 style="font-size:36px;">Seasonal, Sustainable, Masterful Food</h1>
             Experience one of the best NJ restaurants, and enjoy the view! The culinary team 
             at Hotel Gallino has mastered farm-to-table cuisine and delivers fresh, creative,
             seasonal offerings. Executive Chef Lanny Poffo sources the freshest seasonal
@@ -14,7 +14,7 @@
                 
             
             <div>
-                <h1 style="text-align: center;">Our Menu</h1><hr>
+                <h2 style="text-align: center;">Our Menu</h2><hr>
 <h2 style="text-align: center;">APPETIZERS</h2>
 <p style="text-align: center;"><strong>Sweet Potato &amp; Corn Chowder<br>
 </strong><em>Rock Shrimp, Chipotle Crème Fraiche<br>

@@ -1,7 +1,8 @@
 <?php include('header.php') ?>
 
         <div class="lightbox-r">
-            <div style="width:80%; margin-left:auto; margin-right:auto; margin-bottom: -20px; background-color: white; padding:20px; overflow:hidden;">
+            <!-- <div style="width:80%; margin-left:auto; margin-right:auto; margin-bottom: -20px; background-color: white; padding:20px; overflow:hidden;"> -->
+            <div class="menu">
             <h1>Stay a While!</h1>
             Our rooms at Hotel Gallino all offer a unique and relaxing atmosphere, and are a perfect 
             place for your guests to stay during your wedding or event with us. The inn is located on 
@@ -11,9 +12,9 @@
             
             <p>We offer rooms for 1 to 5 guests, perfect for a solo traveler on business, a couple of honeymooners, 
                 or the whole family!</p>
-            <center>
-            <a href="index.php"><button class="mybutton">Book Your Stay</button></a>
-            </center>           
+            
+            <p style="text-align:center;"><a href="index.php"><button class="mybutton">Book Your Stay</button></a><p>
+                      
                 <div class="roomdir" style="font-size:15pt; width: 800px;">
                     <h2 style="margin:0px; padding:0px;">For One Guest</h2>
                     <h5 style="margin:0px; padding:0px; font-weight:100;">Single Twin Bed</h4>

@@ -1,14 +1,4 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Oct 8, 2019, 4:17:43 PM
-    Author     : johngallino
-*/
 
-/* The animation code */
 @keyframes buttonfade {
   from {background-color: brown;
         color: white;}
@@ -22,19 +12,26 @@ src: url('/Assets/Avenir.ttc'), format('truetype');
 font-weight: normal;
 font-style: normal;
 }
+
 body {
     margin: 0px 0px;
-    font-family: Avenir, Arial, Helvetica, "Helvetica Neue", sans-serif;
-
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;  
+    height: 100%;
+    background: brown;
 }
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 46px;  
+  }
+
 .main {
-    display: box;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin: 0px 0px 0px 0px;
-    border-bottom: solid thin black;
-
+    background: white;
 }
 
 .header {
@@ -43,17 +40,20 @@ body {
     padding-top: 2px;
     font-size: 3vw;
     z-index: 99;
-
 }
+
 .footer {
     width: 100%;
+    
     padding:15px;
-    margin: 30px 0px 0px -25px;
+    margin: 0px 0px 0px -25px;
     background: brown;
     font-weight: 600;
     color: white;
     z-index: 1;
 }
+
+
 
 a:hover {
     color: brown;
@@ -122,13 +122,27 @@ input[type=date] {
 }
 
 
+.menu{
+    width:80%; 
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 15px;
+    background:white;
+    padding: 2px 15px 5px 15px;
+}
+
+.menu h1 {
+    margin-top:8px;
+}
+
+
 
 .bookbox {
     display:flex;
-    width: 605px;
+    flex-flow: row nowrap;
+    width: 610px;
     font-size: 18pt;
     background-color: white;
-    flex-flow: row wrap;
     justify-content: space-between;
     padding: 3px;
     margin: 280px auto 20px auto;
@@ -139,7 +153,7 @@ input[type=date] {
 
 .bookbox div {
     margin: 0 0 0 0;
-    font-size: 16px;
+    font-size: 12px;
     padding-left: 10px;
     padding-right: 10px;
     border-right: solid 2px #ccc;
@@ -153,7 +167,7 @@ input[type=date] {
     text-align: center;
 }
 
-input[type="submit"] {
+button.check {
     width:130px; 
     margin-top: 5px;
     height: 35px;
@@ -162,7 +176,7 @@ input[type="submit"] {
     color: white;
 }
 
-input[type="submit"]:hover{
+button.check:hover{
     animation-name: buttonfade;
     animation-duration: 300ms;
     animation-fill-mode: forwards;

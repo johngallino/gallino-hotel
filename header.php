@@ -5,7 +5,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Hotel Gallino - Welcome</title>
-        <link rel="preload" href="/Assets/Avenir.ttc" as="font">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Baskerville">
         <link rel="stylesheet" type="text/css" href="gstyle.css">
         <?php date_default_timezone_set("America/New_York");
         $today=date("Y-m-d");
@@ -30,3 +31,4 @@
                 </div>
             </nav>
         </div>
+        

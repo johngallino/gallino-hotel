@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
         <div class="lightbox-d">
-            <div style="width:80%; margin-left:auto; margin-right:auto;">
+            <div class="menu">
             <h1>Sip & Relax</h1>
             Hotel Gallino has both indoor and outdoor bar areas making it the perfect place
             to grab drinks any season.  Offering a fun-yet-cozy bar inside our 
@@ -11,7 +11,7 @@
                 
             
             <div>
-                <h1 style="text-align: center;">Our Cocktail Menu</h1><hr>
+                <h2 style="text-align: center;">Our Cocktail Menu</h2><hr>
                 
                 <div style="display: block;">
 				

@@ -77,6 +77,7 @@ $howmany = sizeof($availableRooms);
 
 <?php include('header.php') ?>
 <!-- Main content -->
+    <div class="menu">
             <div class="centered" style="margin-bottom:25px;">
                 <div class="queryresult">
                     <?php echo $inputrepeat;
@@ -114,6 +115,7 @@ $howmany = sizeof($availableRooms);
 
         </div>
         </div>
+    </div>
         
 <!-- Footer --> 
         <?php
