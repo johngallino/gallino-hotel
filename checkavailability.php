@@ -73,36 +73,6 @@ $statement3->closeCursor();
 
 $howmany = sizeof($availableRooms);
 
-// DEBUG CITY
-//echo 'arString is ' . $arString . '<br>';
-//echo 'check_in is ' . $check_in . '<br>';
-//echo 'check_out is ' . $check_out . '<br>';
-//echo '<br>roomresults is: ';
-//foreach($roomresults as $val){
-//                            echo $val;
-//                            
-//echo ', ';}
-//
-//echo '<br>nogood is: ';
-//foreach($nogood as $val){
-//                            echo $val;
-//                            
-//echo ', ';}
-//
-//echo '<br>availableRooms is: ';
-//foreach($availableRooms as $val){
-//                            echo $val;
-//                            
-//echo ', ';}
-//
-//echo '<br>availableRoomDetails is: <br>';
-////SELECT * from rooms WHERE roomNum is IN ($arString)
-//foreach($availableRoomDetails as $val){
-//                            echo implode(', ', $val);
-//                            
-//echo '<br> ';}
-
-// END DEBUG CITY
 ?>
 
 <?php include('header.php') ?>
@@ -134,13 +104,13 @@ $howmany = sizeof($availableRooms);
                                 <p class="price"><em> Starting at $<?php echo $room['rate']?> a night</em></p>
                             </div>
                         </div>
-                             <img width="100% cover" src="/<?php echo 'gallino_hotel' . $room['photo']?>">
+                             <img width="100% cover" src="/<?php echo $room['photo']?>">
                     </div>
             <?php endforeach; ?>
                     
                     </div>
             </div>
-           </center>
+           
 
         </div>
         </div>
