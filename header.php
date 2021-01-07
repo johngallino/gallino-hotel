@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>JohnGallinoPHP</title>
+        <title>Hotel Gallino - Welcome</title>
         <link rel="preload" href="/Assets/Avenir.ttc" as="font">
         <link rel="stylesheet" type="text/css" href="gstyle.css">
         <?php date_default_timezone_set("America/New_York");

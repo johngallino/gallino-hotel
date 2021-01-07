@@ -23,9 +23,9 @@ SET time_zone = "+00:00";
 --
 
 -- create user to query product database -- 
-GRANT SELECT, INSERT, DELETE, UPDATE ON johngallinohdatabase.*
-TO johngallino@localhost
-IDENTIFIED BY 'password';
+-- GRANT SELECT, INSERT, DELETE, UPDATE ON heroku_2e5b70d76dac53f.*
+-- TO b43a4cf801c624
+-- IDENTIFIED BY 'ccb11452';
 
 -- --------------------------------------------------------
 
